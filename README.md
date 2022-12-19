@@ -7,7 +7,7 @@
 #### This data approach student achievement in secondary education of two Portuguese schools. The data attributes include student grades, demographic, social and school related features) and it was collected by using school reports and questionnaires. Two datasets are provided regarding the performance in two distinct subjects: Mathematics (mat) and Portuguese language (por). 
 #### The main purpose is to predict sutends' final grade based on their family backgound, school, their previous grades and other attributes. The technique used in this project is CatBoost Regressor, which managed to show quite good results.
 #### Here's the initial data:
-![alt text]([http://url/to/img.png](https://github.com/yulduzerkiniy/Portfolio/blob/main/images/students_df.png))
+![Alt text](Portfolio/images/students_df.png?raw=true "Title")
 
 
 
