@@ -170,11 +170,11 @@
 <!-- Contributing -->
 ## :wave: Contributing
 
-<a href="https://github.com/Louis3797/awesome-readme-template/graphs/contributors">
-  <img src="https://contrib.rocks/image?repo=Louis3797/awesome-readme-template" />
+<a href="https://github.com/yulduzerkiniy">
+  <img src="https://avatars.githubusercontent.com/u/94949957?s=400&u=f210a81d44eae02daaa30be637a8cb42afb692c4&v=4" alt="y_pred" width="50" height="auto"/>
 </a>
 
-
+ 
 Contributions are always welcome!
 
 See `contributing.md` for ways to get started.
@@ -186,5 +186,5 @@ See `contributing.md` for ways to get started.
 
 Your Name - [@linkedin](linkedin.com/in/yulduz-erkiniy-228354248) - yerkiniy@gmail.com
 
-Project Link: [https://github.com/Louis3797/awesome-readme-template](https://github.com/Louis3797/awesome-readme-template)
+Project Link: https://github.com/yulduzerkiniy/Portfolio
 
