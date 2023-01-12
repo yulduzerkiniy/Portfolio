@@ -185,7 +185,7 @@ Data collected by Open CDP project.
 
 <div align="center">
 
-  <img src="images/students_df.png" alt="dataset" width="1000" height="auto" />
+  <img src="images/p3_1.png" alt="dataset" width="1000" height="auto" />
   
 <div align="left">
   
@@ -193,7 +193,7 @@ Data collected by Open CDP project.
   
   <div align="center">
 
-  <img src="images/G3_sex.png" alt="Final_grade_sex" width="500" height="auto" /><img src="images/G3_address.png" alt="Final_grade_address" width="500" height="auto" />
+  <img src="images/p3_2.png" alt="Final_grade_sex" width="500" height="auto" />
     
 <div align="left">
   
@@ -213,7 +213,19 @@ Data collected by Open CDP project.
 
 #### Using some manimulations like MinMaxScaler, PCA to help clusterization algorith, and kMeans to clusterize, we got simple customers classification to "Loyal customers" and not so much.
   
+  <div align="center">
+
+  <img src="images/p3_3.png" alt="Final_grade_sex" width="500" height="auto" />
+    
+<div align="left">
+  
 #### Quite obvious that we can split customers to groups. In this case I decided to divide them into 2 groups. Group1 are people whose last purchase was quite a lot time ago, spent less money and not many purchases. Whilst, for Gruop0 is quite opposite. Last purchase mean is 9 days ago, spent in average $700, mean number of purchase is 2. Also, quantiles looks better
+  
+  <div align="center">
+
+  <img src="images/p3_4_1.png" alt="Final_grade_sex" width="500" height="auto" /><img src="images/p3_4_2.png" alt="Final_grade_address" width="500" height="auto" />
+    
+<div align="left">
   
 ### RFM Segmentation
   #### https://www.optimove.com/resources/learning-center/rfm-segmentation
@@ -224,12 +236,13 @@ Data collected by Open CDP project.
   
   <div align="center">
 
-   <img src="images/languages_3d.png" alt="y_pred" width="600" height="auto" />
+   <img src="images/p3_5.png" alt="y_pred" width="600" height="auto" />
  
   
 <div align="left">
   
  <div align="left">
+   
   #### The third step is to select groups of customers to whom specific types of communications will be sent, based on the RFM segments in which they appear.
    
    
@@ -244,7 +257,7 @@ Data collected by Open CDP project.
   
  <div align="center">
 
-   <img src="images/G3_Failures.png" alt="final_grade_failures" width="600" height="auto" />
+   <img src="images/p3_6.png" alt="final_grade_failures" width="600" height="auto" />
 
  
 <div align="left">
@@ -252,25 +265,22 @@ Data collected by Open CDP project.
 ### Wider RFM segmentation
   <!-- ML -->
 ### :dart: ML
+  
+#### Now the goal is to identify other customers to some extended categories:
+  
+   <div align="center">
+
+   <img src="images/p3_7.png" alt="final_grade_failures" width="600" height="auto" />
+
+ 
+<div align="left">
+  
 #### Now that we've identified our customer categories, we can decide how to approach or deal with each customer.
   
 #### Link to the article:
 https://documentation.bloomreach.com/engagement/docs/rfm-segmentation
   
- <div align="center">
 
-   <img src="images/metrics.png" alt="metrics" width="400" height="auto" />
-   
-<div align="left">
-  
-#### Also real and predicted target values:
-  
-<div align="center">
-
-   <img src="images/y_test_y_redicted.png" alt="y_pred" width="400" height="auto" />
- 
-  
-<div align="left">
   
 <!-- Source Code -->
 ### :scroll: Source Code
