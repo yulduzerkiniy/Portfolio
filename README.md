@@ -313,7 +313,7 @@ https://documentation.bloomreach.com/engagement/docs/rfm-segmentation
 <!-- Source Code -->
 ### :scroll: Source Code
   
-  https://github.com/yulduzerkiniy/Portfolio/tree/main/students_grade
+  [https://github.com/yulduzerkiniy/Portfolio/tree/main/students_grade](https://github.com/yulduzerkiniy/Portfolio/tree/main/eCommerce)
   
   
   
