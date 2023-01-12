@@ -19,9 +19,10 @@
   * [Exploratory Data Analysis](#dart-exploratory-data-analysis)
   * [Source Code 2](#scroll-source-code-2)
 - [Project 3](#star3-about-the-project-3)
-  * [Data 1](#camera-data-3)
-  * [ML](#dart-ml)
-  * [Source Code](#scroll-source-code)
+  * [Data 3](#camera-data-3)
+  * [Clusterization](#dart-clusterization)
+  * [RFM Segmentation](#dart-rfm-segmentation)
+  * [How to approach customers](#coin-how-to-approach-customers)
 - [Contributing](#wave-contributing)
   * [Code of Conduct](#scroll-code-of-conduct)
 - [Contact](#handshake-contact)
@@ -173,7 +174,7 @@
   
 
 <!-- About the Project 3-->
-## :star2: About the Project 3
+## :star3: About the Project 3
 ### eCommerce store events data analysis
 #### This file contains behavior data for Nov 2019 from a large electronics commerce online store.
 Each row in the file represents an event. All events are related to products and users. Each event is like many-to-many relation between products and users.
@@ -193,7 +194,7 @@ Data collected by Open CDP project.
   
   <div align="center">
 
-  <img src="images/p3_2.png" alt="Final_grade_sex" width="500" height="auto" />
+  <img src="images/p3_2.png" alt="Final_grade_sex" width="400" height="auto" />
     
 <div align="left">
   
@@ -209,6 +210,10 @@ Data collected by Open CDP project.
 
 #### In this method I'm trying to divide customers to categories, highlight the loyal and regular customers; identify customers who were loyal before in order to 'remind' about some new sales/services
   
+### Clusterization
+  <!-- Clusterization -->
+### :dart: Clusterization
+
 ###  Segmentation using k-means
 
 #### Using some manimulations like MinMaxScaler, PCA to help clusterization algorith, and kMeans to clusterize, we got simple customers classification to "Loyal customers" and not so much.
@@ -227,7 +232,11 @@ Data collected by Open CDP project.
     
 <div align="left">
   
+  
 ### RFM Segmentation
+  <!-- RFM Segmentation -->
+### :dart: RFM Segmentation
+
   #### https://www.optimove.com/resources/learning-center/rfm-segmentation
   
   #### The first step in building an RFM model is to assign Recency, Frequency and Monetary values to each customer.
@@ -263,14 +272,13 @@ Data collected by Open CDP project.
 <div align="left">
   
 ### Wider RFM segmentation
-  <!-- ML -->
-### :dart: ML
+
   
 #### Now the goal is to identify other customers to some extended categories:
   
    <div align="center">
 
-   <img src="images/p3_7.png" alt="final_grade_failures" width="600" height="auto" />
+   <img src="images/p3_7.png" alt="final_grade_failures" width="400" height="auto" />
 
  
 <div align="left">
@@ -280,6 +288,26 @@ Data collected by Open CDP project.
 #### Link to the article:
 https://documentation.bloomreach.com/engagement/docs/rfm-segmentation
   
+### How to approach customers
+  <!-- How to approach customers -->
+### :coin: How to approach customers
+  
+#### Different approaches:
+  **Champions** : Reward them. Can be early adopters of new products. Will promote your brand. Most likely to send referrals.
+  
+  **Loyal Customer** : Upsell higher value products. Ask for reviews.
+  
+  **Potential Loyalist** : Offer membership / loyalty program. Keep them engaged. Offer personalised recommendations.
+  
+  **Promising** : Offer coupons. Bring them back to the platform and keep them engaged. Offer personalised recommendations.
+  
+  **About to Sleep** : Win them back via renewals or newer products, don’t lose them to competition. Talk to them if necessary. Spend time on highest possible personalisation.
+  
+  **Can't Lose Them** : Provide helpful resources on the site. Send personalised emails.
+  
+  **Hibernating** : Make subject lines of emails very personalised. Revive their interest by a specific discount on a specific product.
+  
+  **Lost** : Revive interest with reach out campaign. Ignore otherwise.
 
   
 <!-- Source Code -->
