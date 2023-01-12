@@ -18,6 +18,10 @@
   * [Data 2](#camera-data-2)
   * [Exploratory Data Analysis](#dart-exploratory-data-analysis)
   * [Source Code 2](#scroll-source-code-2)
+- [Project 3](#star3-about-the-project-3)
+  * [Data 1](#camera-data-3)
+  * [ML](#dart-ml)
+  * [Source Code](#scroll-source-code)
 - [Contributing](#wave-contributing)
   * [Code of Conduct](#scroll-code-of-conduct)
 - [Contact](#handshake-contact)
@@ -168,6 +172,117 @@
   
   
 
+<!-- About the Project 3-->
+## :star2: About the Project 3
+### eCommerce store events data analysis
+#### This file contains behavior data for Nov 2019 from a large electronics commerce online store.
+Each row in the file represents an event. All events are related to products and users. Each event is like many-to-many relation between products and users.
+Data collected by Open CDP project.
+#### The main purpose is to group customers into several categories. Several approaches have been used, like RFM which is widely used in marketing and k-means machine learning approach.
+#### Here's the initial data:
+  <!-- Data 3 -->
+### :camera: Data 3
+
+<div align="center">
+
+  <img src="images/students_df.png" alt="dataset" width="1000" height="auto" />
+  
+<div align="left">
+  
+ #### Quite obvious that users usually view a lot before adding something to cart. After that they can actually purchase desired items:
+  
+  <div align="center">
+
+  <img src="images/G3_sex.png" alt="Final_grade_sex" width="500" height="auto" /><img src="images/G3_address.png" alt="Final_grade_address" width="500" height="auto" />
+    
+<div align="left">
+  
+ ### RFM
+ #### RFM is a method used for analyzing customer value. It is commonly used in database marketing and direct marketing and has received particular attention in retail and professional services industries.
+
+ #### RFM stands for the three dimensions:
+    Recency – How recently did the customer purchase?
+    Frequency – How often do they purchase?
+    Monetary Value – How much do they spend?
+
+#### source: https://en.wikipedia.org/wiki/RFM_(market_research)
+
+#### In this method I'm trying to divide customers to categories, highlight the loyal and regular customers; identify customers who were loyal before in order to 'remind' about some new sales/services
+  
+###  Segmentation using k-means
+
+#### Using some manimulations like MinMaxScaler, PCA to help clusterization algorith, and kMeans to clusterize, we got simple customers classification to "Loyal customers" and not so much.
+  
+#### Quite obvious that we can split customers to groups. In this case I decided to divide them into 2 groups. Group1 are people whose last purchase was quite a lot time ago, spent less money and not many purchases. Whilst, for Gruop0 is quite opposite. Last purchase mean is 9 days ago, spent in average $700, mean number of purchase is 2. Also, quantiles looks better
+  
+### RFM Segmentation
+  #### https://www.optimove.com/resources/learning-center/rfm-segmentation
+  
+  #### The first step in building an RFM model is to assign Recency, Frequency and Monetary values to each customer.
+  #### The second step is to divide the customer list into tiered groups for each of the three dimensions (R, F and M). Unless using specialized software, it’s recommended to divide the customers into four tiers for each dimension, such that each customer will be assigned to one tier in each dimension. This results in 64 distinct customer segments (4x4x4), into which customers will be segmented.
+  #### The simplest way to create customers segments from RFM Model is to use Quartiles. We assign a score from 1 to 4 to Recency, Frequency and Monetary. Four is the best/highest value, and one is the lowest/worst value. A final RFM score is calculated simply by combining individual RFM score numbers.
+  
+  <div align="center">
+
+   <img src="images/languages_3d.png" alt="y_pred" width="600" height="auto" />
+ 
+  
+<div align="left">
+  
+ <div align="left">
+  #### The third step is to select groups of customers to whom specific types of communications will be sent, based on the RFM segments in which they appear.
+   
+   
+#### It is helpful to assign names to segments of interest:
+   **Best Customers** – This group consists of those customers who are found in R-Tier-1, F-Tier-1 and M-Tier-1, meaning that they transacted recently, do so often and spend more than other customers. A shortened notation for this segment is 1-1-1; we’ll use this notation going forward.
+   
+   **High-spending New Customers** – This group consists of those customers in 1-4-1 and 1-4-2. These are customers who transacted only once, but very recently and they spent a lot.
+   
+   **Lowest-Spending Active Loyal Customers** – This group consists of those customers in segments 1-1-3 and 1-1-4 (they transacted recently and do so often, but spend the least).
+   
+   **Churned Best Customers** – This segment consists of those customers in groups 4-1-1, 4-1-2, 4-2-1 and 4-2-2 (they transacted frequently and spent a lot, but it’s been a long time since they’ve transacted).
+  
+ <div align="center">
+
+   <img src="images/G3_Failures.png" alt="final_grade_failures" width="600" height="auto" />
+
+ 
+<div align="left">
+  
+### Wider RFM segmentation
+  <!-- ML -->
+### :dart: ML
+#### Now that we've identified our customer categories, we can decide how to approach or deal with each customer.
+  
+#### Link to the article:
+https://documentation.bloomreach.com/engagement/docs/rfm-segmentation
+  
+ <div align="center">
+
+   <img src="images/metrics.png" alt="metrics" width="400" height="auto" />
+   
+<div align="left">
+  
+#### Also real and predicted target values:
+  
+<div align="center">
+
+   <img src="images/y_test_y_redicted.png" alt="y_pred" width="400" height="auto" />
+ 
+  
+<div align="left">
+  
+<!-- Source Code -->
+### :scroll: Source Code
+  
+  https://github.com/yulduzerkiniy/Portfolio/tree/main/students_grade
+  
+  
+  
+  
+  
+  
+  
 
 <!-- Contributing -->
 ## :wave: Contributing
